@@ -1,4 +1,4 @@
-FROM alpine
+FROM phatblat.jfrog.io/workshop-docker/alpine:latest
 
 RUN apk add --no-cache wget gcc musl-dev # buildkit
 
