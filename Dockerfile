@@ -1,4 +1,6 @@
-FROM mjmckay.jfrog.io/app-docker/myalpine:latest
+FROM alpine
+
+RUN apk add --no-cache wget gcc musl-dev # buildkit
 
 WORKDIR /app
 
